@@ -9,6 +9,7 @@
       :categories="filteredCategories"
       :active-category="activeCategory"
       @click="onAnchorClick"
+      @delete="onEmojiDelete"
     />
   </div>
 
@@ -87,16 +88,16 @@ const I18N = {
   notfound: 'No Emoji Found',
   categories: {
     search: 'Search Results',
-    recent: 'Frequently Used',
-    people: 'Smileys & People',
-    nature: 'Animals & Nature',
-    foods: 'Food & Drink',
-    activity: 'Activity',
-    places: 'Travel & Places',
-    objects: 'Objects',
-    symbols: 'Symbols',
-    flags: 'Flags',
-    custom: 'Custom',
+    recent: 'よく使う絵文字',
+    people: 'スマイリー & 人',
+    nature: '動物 & 自然',
+    foods: 'フード & ドリンク',
+    activity: 'アクティビティ',
+    places: 'トラベル & 場所',
+    objects: 'オブジェクト',
+    symbols: '記号',
+    flags: '旗',
+    custom: 'カスタム',
   },
 }
 
@@ -291,7 +292,10 @@ export default {
       store.update({ skin })
 
       this.$emit('skin-change', skin)
-    }
+    },
+    onEmojiDelete() {
+      this.$emit('delete')
+    },
   },
   components: {
     Anchors,
