@@ -11,6 +11,12 @@
     <div v-html="svgs[category.id]"/>
     <span class="emoji-mart-anchor-bar" :style="{ backgroundColor: color }"></span>
   </span>
+  <span
+    class="emoji-mart-anchor trush"
+    @click="$emit('delete')"
+  >
+    <div v-html="svgs['trush']"/>
+  </span>
 </div>
 
 </template>
@@ -86,6 +92,10 @@ export default {
   display: inline-block;
   width: 100%;
   max-width: 22px;
+}
+
+.emoji-mart-anchor.trush:hover {
+  cursor: pointer;
 }
 
 </style>
