@@ -152,7 +152,7 @@ export default {
   computed: {
     customStyles() {
       return {
-        width: this.calculateWidth + 'px',
+        width: 385 + 'px',
         ...this.pickerStyles
       }
     },

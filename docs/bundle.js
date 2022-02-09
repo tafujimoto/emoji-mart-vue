@@ -2260,9 +2260,6 @@ exports.default = {
 //
 //
 //
-//
-//
-//
 
 /***/ }),
 /* 47 */
@@ -3660,7 +3657,7 @@ exports.default = {
   computed: {
     customStyles: function customStyles() {
       return (0, _extends3.default)({
-        width: this.calculateWidth + 'px'
+        width: 385 + 'px'
       }, this.pickerStyles);
     },
     emojiProps: function emojiProps() {
@@ -12583,7 +12580,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.emoji-mart-anchors[data-v-51188104] {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n      flex-direction: row;\n  -ms-flex-pack: justify;\n      justify-content: space-between;\n  padding: 0 6px;\n  color: #858585;\n  line-height: 0;\n}\n.emoji-mart-anchor[data-v-51188104] {\n  position: relative;\n  display: block;\n  -ms-flex: 1 1 auto;\n      flex: 1 1 auto;\n  text-align: center;\n  padding: 12px 4px;\n  overflow: hidden;\n  transition: color .1s ease-out;\n}\n.emoji-mart-anchor[data-v-51188104]:hover,\n.emoji-mart-anchor-selected[data-v-51188104] {\n  color: #464646;\n}\n.emoji-mart-anchor-selected .emoji-mart-anchor-bar[data-v-51188104] {\n  bottom: 0;\n}\n.emoji-mart-anchor-bar[data-v-51188104] {\n  position: absolute;\n  bottom: -3px; left: 0;\n  width: 100%; height: 3px;\n  background-color: #464646;\n}\n.emoji-mart-anchors i[data-v-51188104] {\n  display: inline-block;\n  width: 100%;\n  max-width: 22px;\n}\n.emoji-mart-anchor.trush[data-v-51188104]:hover {\n  cursor: pointer;\n}\n\n", ""]);
+exports.push([module.i, "\n.emoji-mart-anchors[data-v-51188104] {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n      flex-direction: row;\n  -ms-flex-pack: justify;\n      justify-content: space-between;\n  padding: 0 6px;\n  color: #858585;\n  line-height: 0;\n}\n.emoji-mart-anchor[data-v-51188104] {\n  position: relative;\n  display: block;\n  -ms-flex: 1 1 auto;\n      flex: 1 1 auto;\n  text-align: center;\n  padding: 9px 4px;\n  overflow: hidden;\n  transition: color .1s ease-out;\n}\n.emoji-mart-anchor[data-v-51188104]:hover,\n.emoji-mart-anchor-selected[data-v-51188104] {\n  color: #464646;\n}\n.emoji-mart-anchor-selected .emoji-mart-anchor-bar[data-v-51188104] {\n  bottom: 0;\n}\n.emoji-mart-anchor-bar[data-v-51188104] {\n  position: absolute;\n  bottom: -3px; left: 0;\n  width: 100%; height: 3px;\n  background-color: #464646;\n}\n.emoji-mart-anchors i[data-v-51188104] {\n  display: inline-block;\n  width: 100%;\n  max-width: 22px;\n}\n.emoji-mart-anchor.delete input[data-v-51188104] {\n  width: 58px;\n  background: #F5F5F5;\n  border: none;\n  height: 29px;\n  border-radius: 5px;\n  color: #505050;\n  cursor: pointer;\n}\n.emoji-mart-anchor.delete input[data-v-51188104]:hover {\n  background: #E5E5E5;\n}\n\n", ""]);
 
 // exports
 
@@ -12623,7 +12620,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.emoji-mart-anchors svg {\n  fill: currentColor;\n  max-height: 18px;\n}\n\n", ""]);
+exports.push([module.i, "\n.emoji-mart-anchors svg {\n  fill: currentColor;\n  max-height: 18px;\n  margin-top: 5px;\n}\n\n", ""]);
 
 // exports
 
@@ -12657,10 +12654,7 @@ var SVGs = {
 
   recent: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path d=\"M13 4h-2l-.001 7H9v2h2v2h2v-2h4v-2h-4z\"/><path d=\"M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0m0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10\"/></svg>",
 
-  symbols: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path d=\"M0 0h11v2H0zM4 11h3V6h4V4H0v2h4zM15.5 17c1.381 0 2.5-1.116 2.5-2.493s-1.119-2.493-2.5-2.493S13 13.13 13 14.507 14.119 17 15.5 17m0-2.986c.276 0 .5.222.5.493 0 .272-.224.493-.5.493s-.5-.221-.5-.493.224-.493.5-.493M21.5 19.014c-1.381 0-2.5 1.116-2.5 2.493S20.119 24 21.5 24s2.5-1.116 2.5-2.493-1.119-2.493-2.5-2.493m0 2.986a.497.497 0 0 1-.5-.493c0-.271.224-.493.5-.493s.5.222.5.493a.497.497 0 0 1-.5.493M22 13l-9 9 1.513 1.5 8.99-9.009zM17 11c2.209 0 4-1.119 4-2.5V2s.985-.161 1.498.949C23.01 4.055 23 6 23 6s1-1.119 1-3.135C24-.02 21 0 21 0h-2v6.347A5.853 5.853 0 0 0 17 6c-2.209 0-4 1.119-4 2.5s1.791 2.5 4 2.5M10.297 20.482l-1.475-1.585a47.54 47.54 0 0 1-1.442 1.129c-.307-.288-.989-1.016-2.045-2.183.902-.836 1.479-1.466 1.729-1.892s.376-.871.376-1.336c0-.592-.273-1.178-.818-1.759-.546-.581-1.329-.871-2.349-.871-1.008 0-1.79.293-2.344.879-.556.587-.832 1.181-.832 1.784 0 .813.419 1.748 1.256 2.805-.847.614-1.444 1.208-1.794 1.784a3.465 3.465 0 0 0-.523 1.833c0 .857.308 1.56.924 2.107.616.549 1.423.823 2.42.823 1.173 0 2.444-.379 3.813-1.137L8.235 24h2.819l-2.09-2.383 1.333-1.135zm-6.736-6.389a1.02 1.02 0 0 1 .73-.286c.31 0 .559.085.747.254a.849.849 0 0 1 .283.659c0 .518-.419 1.112-1.257 1.784-.536-.651-.805-1.231-.805-1.742a.901.901 0 0 1 .302-.669M3.74 22c-.427 0-.778-.116-1.057-.349-.279-.232-.418-.487-.418-.766 0-.594.509-1.288 1.527-2.083.968 1.134 1.717 1.946 2.248 2.438-.921.507-1.686.76-2.3.76\"/></svg>",
-
-  trush: "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13.149\" height=\"17\" viewBox=\"0 0 13.149 17\"><g id=\"i-trash\" transform=\"translate(0.5 0.5)\"><path id=\"bin\" d=\"M17.149,6H5m7.81-1H9.339M5.868,10V20q0,1,.868,1h8.678q.868,0,.868-1V10\" transform=\"translate(-5 -5)\" fill=\"none\" stroke=\"#586c8d\" stroke-linecap=\"round\" stroke-width=\"1\"/><line id=\"\u7DDA_173\" data-name=\"\u7DDA 173\" y2=\"9\" transform=\"translate(4.339 5)\" fill=\"none\" stroke=\"#586c8d\" stroke-linecap=\"round\" stroke-width=\"1\"/><line id=\"\u7DDA_174\" data-name=\"\u7DDA 174\" y2=\"9\" transform=\"translate(7.81 5)\" fill=\"none\" stroke=\"#586c8d\" stroke-linecap=\"round\" stroke-width=\"1\"/></g></svg>"
-
+  symbols: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path d=\"M0 0h11v2H0zM4 11h3V6h4V4H0v2h4zM15.5 17c1.381 0 2.5-1.116 2.5-2.493s-1.119-2.493-2.5-2.493S13 13.13 13 14.507 14.119 17 15.5 17m0-2.986c.276 0 .5.222.5.493 0 .272-.224.493-.5.493s-.5-.221-.5-.493.224-.493.5-.493M21.5 19.014c-1.381 0-2.5 1.116-2.5 2.493S20.119 24 21.5 24s2.5-1.116 2.5-2.493-1.119-2.493-2.5-2.493m0 2.986a.497.497 0 0 1-.5-.493c0-.271.224-.493.5-.493s.5.222.5.493a.497.497 0 0 1-.5.493M22 13l-9 9 1.513 1.5 8.99-9.009zM17 11c2.209 0 4-1.119 4-2.5V2s.985-.161 1.498.949C23.01 4.055 23 6 23 6s1-1.119 1-3.135C24-.02 21 0 21 0h-2v6.347A5.853 5.853 0 0 0 17 6c-2.209 0-4 1.119-4 2.5s1.791 2.5 4 2.5M10.297 20.482l-1.475-1.585a47.54 47.54 0 0 1-1.442 1.129c-.307-.288-.989-1.016-2.045-2.183.902-.836 1.479-1.466 1.729-1.892s.376-.871.376-1.336c0-.592-.273-1.178-.818-1.759-.546-.581-1.329-.871-2.349-.871-1.008 0-1.79.293-2.344.879-.556.587-.832 1.181-.832 1.784 0 .813.419 1.748 1.256 2.805-.847.614-1.444 1.208-1.794 1.784a3.465 3.465 0 0 0-.523 1.833c0 .857.308 1.56.924 2.107.616.549 1.423.823 2.42.823 1.173 0 2.444-.379 3.813-1.137L8.235 24h2.819l-2.09-2.383 1.333-1.135zm-6.736-6.389a1.02 1.02 0 0 1 .73-.286c.31 0 .559.085.747.254a.849.849 0 0 1 .283.659c0 .518-.419 1.112-1.257 1.784-.536-.651-.805-1.231-.805-1.742a.901.901 0 0 1 .302-.669M3.74 22c-.427 0-.778-.116-1.057-.349-.279-.232-.418-.487-.418-.766 0-.594.509-1.288 1.527-2.083.968 1.134 1.717 1.946 2.248 2.438-.921.507-1.686.76-2.3.76\"/></svg>"
 };
 
 exports.default = SVGs;
@@ -12710,18 +12704,16 @@ var render = function() {
         )
       }),
       _vm._v(" "),
-      _c(
-        "span",
-        {
-          staticClass: "emoji-mart-anchor trush",
+      _c("span", { staticClass: "emoji-mart-anchor delete" }, [
+        _c("input", {
+          attrs: { type: "button", value: "削除" },
           on: {
             click: function($event) {
               _vm.$emit("delete")
             }
           }
-        },
-        [_c("div", { domProps: { innerHTML: _vm._s(_vm.svgs["trush"]) } })]
-      )
+        })
+      ])
     ],
     2
   )

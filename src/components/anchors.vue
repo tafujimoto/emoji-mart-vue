@@ -11,11 +11,8 @@
     <div v-html="svgs[category.id]"/>
     <span class="emoji-mart-anchor-bar" :style="{ backgroundColor: color }"></span>
   </span>
-  <span
-    class="emoji-mart-anchor trush"
-    @click="$emit('delete')"
-  >
-    <div v-html="svgs['trush']"/>
+  <span class="emoji-mart-anchor delete">
+    <input type="button" value="削除" @click="$emit('delete')" />
   </span>
 </div>
 
@@ -68,7 +65,7 @@ export default {
   display: block;
   flex: 1 1 auto;
   text-align: center;
-  padding: 12px 4px;
+  padding: 9px 4px;
   overflow: hidden;
   transition: color .1s ease-out;
 }
@@ -94,8 +91,18 @@ export default {
   max-width: 22px;
 }
 
-.emoji-mart-anchor.trush:hover {
+.emoji-mart-anchor.delete input {
+  width: 58px;
+  background: #F5F5F5;
+  border: none;
+  height: 29px;
+  border-radius: 5px;
+  color: #505050;
   cursor: pointer;
+}
+
+.emoji-mart-anchor.delete input:hover {
+  background: #E5E5E5;
 }
 
 </style>
@@ -105,6 +112,7 @@ export default {
 .emoji-mart-anchors svg {
   fill: currentColor;
   max-height: 18px;
+  margin-top: 5px;
 }
 
 </style>
