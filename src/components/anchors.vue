@@ -99,6 +99,7 @@ export default {
   border-radius: 5px;
   color: #505050;
   cursor: pointer;
+  font-size: 13px;
 }
 
 .emoji-mart-anchor.delete input:hover {
